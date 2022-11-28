@@ -96,7 +96,7 @@
 #define USERMOD_ID_ANALOG_CLOCK          33     //Usermod "Analog_Clock.h"
 #define USERMOD_ID_PING_PONG_CLOCK       34     //Usermod "usermod_v2_ping_pong_clock.h"
 #define USERMOD_ID_ADS1115               35     //Usermod "usermod_ads1115.h"
-
+#define USERMOD_ID_METAR_MAP             36     //Usermod "usermod_metar_map.h"
 //Access point behavior
 #define AP_BEHAVIOR_BOOT_NO_CONN          0     //Open AP when no connection after boot
 #define AP_BEHAVIOR_NO_CONN               1     //Open when no connection (either after boot or if connection is lost)

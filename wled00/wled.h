@@ -29,7 +29,7 @@
 //#define WLED_DISABLE_HUESYNC     // saves 4kb
 //#define WLED_DISABLE_INFRARED    // saves 12kb, there is no pin left for this on ESP8266-01
 #ifndef WLED_DISABLE_MQTT
-  #define WLED_ENABLE_MQTT         // saves 12kb
+//  #define WLED_ENABLE_MQTT         // saves 12kb
 #endif
 #define WLED_ENABLE_ADALIGHT       // saves 500b only (uses GPIO3 (RX) for serial)
 //#define WLED_ENABLE_DMX          // uses 3.5kb (use LEDPIN other than 2)

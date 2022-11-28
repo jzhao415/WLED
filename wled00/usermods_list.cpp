@@ -160,6 +160,10 @@
 #include "../usermods/ADS1115_v2/usermod_ads1115.h"
 #endif
 
+#ifdef USERMOD_METARMAP
+#include "../usermods/metar_map/usermod_metar_map.h"
+#endif
+
 void registerUsermods()
 {
 /*
@@ -306,5 +310,9 @@ void registerUsermods()
   
   #ifdef USERMOD_ADS1115
   usermods.add(new ADS1115Usermod());
+  #endif
+
+  #ifdef USERMOD_METARMAP
+  usermods.add(new MetarMapUsermod());
   #endif
 }
